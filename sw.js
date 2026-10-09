@@ -1,16 +1,16 @@
 /* Plafond — service worker
    Sempre que publicares uma versão nova, sobe o número em VERSION
    para os telemóveis descarregarem os ficheiros atualizados. */
-const VERSION = 'plafond-v1.0.0';
+const VERSION = 'plafond-v1.0.1';
 const CORE = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './icons/icon-192.png',
-  './icons/icon-512.png',
-  './icons/icon-maskable-512.png',
-  './icons/apple-touch-icon.png',
-  './icons/favicon.svg'
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png',
+  './apple-touch-icon.png',
+  './favicon.svg'
 ];
 
 self.addEventListener('install', e => {
